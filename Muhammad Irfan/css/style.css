@@ -1,0 +1,156 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+nav li{
+	margin-right: 18px;
+}
+.section2{
+	padding: 100px;
+
+}
+.block-view{
+    top: -73px;
+    border-bottom: 5px solid #165100;
+}
+#nav1{
+	background-color:#073008;
+}
+#nav2{
+	background-color: #2eb109;
+}
+#hd img{
+	padding: 130px ;
+}
+#md{
+	background-color: #165100;
+	padding: 40px;
+}
+#md p{
+	padding: 20px;
+	font:MyriadPro;
+	word-spacing: 2.5px;
+}
+#course-track{
+	background-color: #343434;
+}
+#first{
+	background-color: #333;
+
+}
+#first h3{
+	background: #0C891E ;
+	padding: 10px;
+}
+
+#hd-div{
+	padding: 10px;
+	background-color:#5F6360  ;
+	margin-top: 0px !important;
+}
+#hd-div ul li{
+	list-style: none;
+}
+#row1{
+	justify-content: center;
+	padding-bottom: 80px;
+}
+#col1{
+	background-color: rgba(0, 0, 0, 0.2);
+}
+#col2{
+	background-color: rgba(65, 64, 66, 1);
+}
+#col3{
+background-color: rgba(88, 89, 91, 1);
+}
+#row1 h5{
+	padding: 15px;
+}
+#header1{
+	background-color: rgba(22, 81, 0, 0.54);
+	padding: 10px;
+
+}
+#row1 li{
+	list-style: none;
+	padding: 5px;
+
+}
+#header2{
+	background-color: rgba(46, 178, 9, 0.54);
+}
+#header3{
+	background-color: rgba(99, 183, 72, 0.54);
+	padding: 10px;
+}
+
+#sec3{
+	background-color: #ddd;
+}
+#cl1{
+	background-color: white;
+}
+
+#hi .col-2{
+	background-color: #165100;
+}
+#sec3 .btn{
+	background-color: #165100;
+}
+#footer{
+	background-color: #232323;
+}
+#footer #ph{
+	color: #898989;
+}
+#ft2{
+	background-color: #161616;
+	color: white;
+}
+#ft2 #ph{
+	color: #898989;
+	font-size: 10px;
+	padding-top: 30px;
+	}
+
+
+
+@media screen and (max-width: 1150px) {
+  #nav2 ul li a{
+    /*display: none;*/
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    
+  }
+  #section12 img{
+  	width:60%;
+  	height: 80%;
+  }
+ 
+}
+@media screen and (max-width: 880px) {
+	#nav1 ul li a{
+		display: none;
+	}
+	#nav2 ul li{
+		display: none;
+	}
+	#btn1{
+		width: 40%;
+		
+	}
+	#hd img{
+		height: 600px;
+		width: 500px;
+		padding: 60px;
+	}
+	#btn2{
+		width: 50px;
+		font-size: 10px;
+
+	}
+
+}
