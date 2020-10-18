@@ -1,0 +1,181 @@
+@import "fonts.css";
+html{background: #a7272b;}
+body {
+	background: blue;
+	min-width: 320px;
+}
+#wrapper {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	background: #fff;
+}
+p { margin: 0 0 30px; }
+a, .btn {
+	transition: all linear 0.2s;
+	-ms-transition: all linear 0.2s;
+}
+.btn i{
+	display: inline-block;
+	vertical-align: middle;
+}
+a:hover, a:focus, a:active {
+	outline: none;
+	text-decoration: none;
+}
+.btn-default:hover {
+	background: #3565be;
+	color: #fff;
+}
+.list-bullet{
+	list-style: none;
+	padding: 0;
+	margin: 0 0 40px;
+}
+.list-bullet li{
+	position: relative;
+	padding:0 0 0 10px;
+	margin:0 0 10px;
+}
+.list-bullet li:after{
+	content: "\e910";
+	font-family: 'icomoon';
+	position: absolute;
+	left: 0;
+	top: 10px;
+	font-size: 10px;
+	color: #000;
+	line-height: 0;
+}
+#footer .list-bullet li{margin: 0 0 5px;}
+#footer .list-bullet li:after{
+	color: #fff;
+}
+.bold-text{
+	display: block;
+	font-size: 30px;
+	line-height: 35px;
+	color: #000;
+	font-weight: 400;
+	text-align: center;
+	margin:0 0 45px;
+}
+.sales-block{
+	display: block;
+	border:1px solid #bbb;
+	background: #f0e8dc url(../images/bg5.png) no-repeat 0 100%;
+	padding:40px 24px;
+	margin:0 0 25px;
+	text-align: center;
+	min-height:385px;
+}
+.timing{
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	background:url(../images/calendar.png) no-repeat 0 5px;
+	padding:0 0 0 50px;
+	font-size: 18px;
+	line-height: 24px;
+	color: #000;
+	margin:0 0 40px;
+}
+.timing span, .timing strong{
+	display: block;
+}
+.timing strong{
+	font-size: 22px;
+	line-height: 25px;
+	font-weight: 700;
+	color: #be3034;
+}
+.title-box{
+	text-align: center;
+	padding:30px;
+	background: #be3034;
+	color: #fff;
+}
+.title-box .title{
+	display: block;
+	text-transform: uppercase;
+	font-size: 26px;
+	line-height: 30px;
+}
+.title-box p{margin: 0;}
+.downloads{
+	text-align: center;
+	padding:30px;
+	background: #3565be;
+	color: #fff;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.downloads li a{
+	color: #fff;
+	padding:30px;
+	display: block;
+	font-size: 20px;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+.downloads li a i{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 15px;
+	font-size: 35px;
+}
+.downloads li a:hover{
+	box-shadow:0 0 30px rgba(0,0,0,0.5) inset;
+}
+.sales-btn-group{
+	text-align: center;
+	margin:0 0 100px;
+}
+.sales-btn-group .btn{
+	font-size: 20px;
+	line-height: 25px;
+}
+.topbar {
+	background: #3565be;
+	padding: 0 9999px;
+	margin: 0 -9999px;
+	min-height: 42px;
+}
+.topbar address, .topbar a {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px 0 10px 20px;
+	color: #fff;
+}
+.topbar a i {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 8px 0 0;
+	font-size: 16px;
+}
+.client-login { font-weight: 700; }
+.navbar-default {
+	border: none !important;
+	padding: 23px 0 0;
+	text-transform: uppercase;
+}
+.navbar-brand {
+	width: 189px;
+	height: 127px;
+	margin: -66px 0 0;
+	padding: 0;
+}
+.navbar-brand > img {
+	width: 50%;
+	height: auto;
+	display: block;
+}
+.btn {
+	line-height: 20px;
+	padding: 9px 18px;
+}
+.navbar-nav > li > a {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
